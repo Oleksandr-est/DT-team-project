@@ -1,3 +1,10 @@
 .hero {
-    background-color: red;
+    background-color: var(--hero-background);
+}
+
+.item-2krew {
+    border-radius: 100%;
+    background-color: #ffffff;
+    height: 44px;
+    width: 44px;
 }
