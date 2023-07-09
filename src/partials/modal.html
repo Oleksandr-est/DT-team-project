@@ -14,59 +14,76 @@
     <h2 class="order-form-modalname">YOUR ORDER</h2>
     <ul class="list modal-order-container">
       <li class="modal-plant-container container">
-        <h3>Cabbage Bascet</h3>
-        <p>Plant</p>
+        <h3 class="modal-title-plant">Cabbage Bascet</h3>
+        <p class="modal-p-title">Plant</p>
         <div class="modal-img-container">
-          <img src="../img/png/cabbage-modal.png" alt="cabbage" width="243" />
+          <img src="../img/png/cabbage-modal.png" alt="cabbage" width="240" />
         </div>
       </li>
       <li class="modal-plant-container container">
-        <h3>Tomato Bascet</h3>
-        <p>Plant</p>
+        <h3 class="modal-title-plant">Tomato Bascet</h3>
+        <p class="modal-p-title">Plant</p>
         <div class="modal-img-container">
-          <img src="../img/png/tomato-modal.png" alt="cabbage" width="243" />
+          <img src="../img/png/tomato-modal.png" alt="cabbage" width="240" />
         </div>
       </li>
       <li class="modal-plant-container container">
-        <h3>Vegetables Bascet</h3>
-        <p>Plant</p>
+        <h3 class="modal-title-plant">Vegetables Bascet</h3>
+        <p class="modal-p-title">Plant</p>
         <div class="modal-img-container">
           <img
             src="../img/png/vegetables-modal.png"
             alt="cabbage"
-            width="243"
+            width="240"
           />
         </div>
       </li>
     </ul>
-    <div class="modal-contact-container">
-      <form class="contact-form">
-        <div class="contact-form-wrapper">
-          <div class="contact-form-input-wrapper">
-            <input
-              class="contact-form-input"
-              type="text"
-              name="user-name"
-              id="user-name"
-              required
-              pattern="[a-zA-Zа-яА-ЯіІїЇґҐєЄ']+"
-              placeholder="Enter full name"
-            />
-          </div>
-          <button type="submit" class="subscribe-btn">
-            Subscribe
-            <svg
-              class="icon-send"
-              aria-label="icon-send"
-              width="24"
-              height="24"
-            ></svg>
-          </button>
-        </div>
-      </form>
-      <div class="img-girl-in-orange">
-        <img src="../img/png/girl-modal.png" alt="girl_in_orange" width="444" />
+    <form class="modal-contact-form container">
+      <div class="contact-form-input-wrapper">
+        <input
+          class="contact-form-input"
+          type="text"
+          name="user-name"
+          id="user-name"
+          required
+          pattern="[a-zA-Zа-яА-ЯіІїЇґҐєЄ']+"
+          placeholder="Enter full name..."
+        />
+        <input
+          class="contact-form-input"
+          type="text"
+          name="user-email"
+          id="user-email"
+          required
+          placeholder="Enter email..."
+        />
+        <input
+          class="contact-form-input"
+          type="text"
+          name="user-card"
+          id="user-card"
+          required
+          pattern="[0-9]{4}-[0-9]{4}-[0-9]{4}-[0-9]{4}+"
+          title="xxx-xxx-xxxx-xxxx"
+          placeholder="Enter card..."
+        />
+        <textarea
+          class="contact-form-message"
+          id="user-comment"
+          name="user-comment"
+          placeholder="Enter comments..."
+        ></textarea>
+        <button type="submit" class="submit-btn">Submit</button>
       </div>
-    </div>
+      <div class="img-girl-in-orange">
+        <img
+          src="../img/png/girl-modal.png"
+          alt="girl_in_orange"
+          width="444"
+          height="413"
+        />
+      </div>
+    </form>
   </div>
 </div>
