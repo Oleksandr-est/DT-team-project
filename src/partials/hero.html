@@ -93,33 +93,53 @@
         covered. Fresh, high-quality vegetables in expertly curated vegetable
         baskets delivered to you.
       </p>
-    </div>
-    <div class="container-photo-btn">
-      <button class="btn-shop-now" type="button">
+      <button class="btn-shop-now data-modal-open" type="button">
         shop <br />
         now
       </button>
-
-      <picture>
+    </div>
+    <div class="container-photo-btn">
+      <picture class="photo-girl-hero">
         <source
-          srcset="../img/png/img girl hero.png 1x,
-      ../img/png@2x/girl@2x.png 2x"
+          srcset="
+            ../img/png/herogirl@1x.png    1x,
+            ../img/png@2x/herogirl@2x.png 2x
+          "
+          media="(min-width:1280px)"
         />
-        <img src="../img/png/img girl hero.png" alt="girl with salat" />
+        <source
+          srcset="
+            ../img/png/herogirltablet@1x.png    1x,
+            ../img/png@2x/herogirltablet@2x.png 2x
+          "
+          media="(min-width:768px)"
+        />
+        <source
+          srcset="
+            ../img/png/herogirlphone@1x.png    1x,
+            ../img/png@2x/herogirlphone@2x.png 2x
+          "
+          media="(max-width:767px)"
+        />
+        <img
+          class="girl-hero"
+          src="../img/png/herogirl@1x.png"
+          alt="girl with salat"
+        />
       </picture>
 
       <ul class="list-character">
         <li class="item-character">
-          <p>#organic</p>
+          <a class="organic link-hero" href="">#organic</a>
         </li>
         <li class="item-character">
-          <p>#products</p>
+          <a class="products link-hero" href="">#products</a>
         </li>
         <li class="item-character">
-          <p>#basket</p>
+          <a class="basket link-hero" href="">#basket</a>
         </li>
         <li class="item-character">
-          <p>#vegetables</p>
+          <a class="veget link-hero" href="">#vegetables</a>
         </li>
       </ul>
     </div>
