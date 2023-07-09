@@ -91,6 +91,5 @@ filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15)); */
 (min-resolution: 2dppx) {
     .callback-img {
         background-image:
-            /*call(2x)*/
-    }
+            /*call(2x)*/ }
 }
