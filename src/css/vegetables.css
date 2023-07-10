@@ -45,6 +45,7 @@
     list-style-type: none;
     display: flex;
     flex-wrap: wrap;
+    gap: 20px;
 }
 
 .vegetables-item {
@@ -171,11 +172,13 @@
 
     .vegetables-item {
         max-width: unset;
-        width: calc((100% - 20px * 3) / 3);
+        width: calc((100% - 48px * 3) / 3);
     }
 
     .vegetables-list {
+        justify-content: center;
         gap: 24px;
+        column-gap: 24px;
     }
 
     .vegetables-text {
