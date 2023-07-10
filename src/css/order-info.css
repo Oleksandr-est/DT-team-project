@@ -1,10 +1,15 @@
+
+/*--------mobile version------------------------------------*/
+/*container {
+    width: 100%;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin: 0 auto;
+}*/
+
+
 @media screen and (max-width: 375px) {
-
-   
-
-
-
-    .container {
+        .container {
         max-width: 335px;
         padding-right: 20px;
         padding-left: 20px;
@@ -63,7 +68,7 @@
     .order-text {
 
         color: #141414;
-        ext-shadow: 0px 4px 70px 0px rgba(0, 0, 0, 0.10);
+        text-shadow: 0px 4px 70px 0px rgba(0, 0, 0, 0.10);
         font-family: inherit;
         font-size: 14px;
         font-style: normal;
@@ -77,13 +82,21 @@
 
 
     .steps-container {
-
-max-width: 335px;
+<<<<<<< Updated upstream
+        background-image: url(../img/png/backimg-mob.png.png);
+=======
+        background-image:
+                    
+                url(../img/png/backimg-mob.png.png);
+>>>>>>> Stashed changes
+        max-width: 335px;
         margin: auto;
         border-radius: 40px;
         background-color: #FAF3E7;
+     }
 
-    }
+
+
 
     .steps-title {
         /*display: flex;
@@ -137,15 +150,14 @@ max-width: 335px;
 
 
 @media screen and (min-width: 768px ) {
-
-   
-
-    .container {
+       .container {
         min-width: 704px;
         padding-right: 32px;
         padding-left: 32px;
         margin: auto;
     }
+
+
 .cont-column {
     display: flex;
     flex-direction: column;
@@ -220,7 +232,7 @@ max-width: 335px;
 
     .steps-container {
 
-
+background-image: url(../img/png/backimg-tab.png.png);
         margin: auto;
         justify-content: center;
         border-radius: 80px;
@@ -282,13 +294,16 @@ letter-spacing: -0.04em;
 
 }
 
+/*----------descktop version-----------------------------------*/
+
 @media screen and (min-width: 1280px) {
     .container {
-        
+        max-width: 1216px;
         padding-right: 32px;
-            padding-left: 32px;
-            margin: auto;
+        padding-left: 32px;
+        margin: auto;
     }
+    
 
 .cont-column {
     display: flex;
@@ -356,8 +371,9 @@ letter-spacing: -0.04em;
 }
 
 .steps-container {
+    background-image: url(../img/png/backimg-desck.png.png);
    max-width: 1216px;
-   argin: auto;
+   margin: auto;
 justify-content: center;
 border-radius: 80px;
 background-color: #FAF3E7;
