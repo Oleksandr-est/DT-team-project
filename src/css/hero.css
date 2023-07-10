@@ -1,5 +1,12 @@
 .hero {
     background-color: var(--hero-background);
+
+}
+
+.container-hero {
+
+    position: relative;
+    margin: 0;
 }
 
 .container-text-hero {
@@ -97,12 +104,16 @@
 
 }
 
-@media screen and (max-width:375px) {
-    .hero {
+@media screen and (max-width:374px) {
+    .container-hero {
+        display: flex;
+        flex-wrap: wrap;
+        max-width: 375px;
         padding-left: 20px;
         padding-right: 20px;
         padding-top: 48px;
         padding-bottom: 20px;
+        margin: auto;
     }
 
 
@@ -254,9 +265,10 @@
 
 
 @media screen and (min-width:375px) {
-    .hero {
-        padding-left: 20px;
-        padding-right: 20px;
+    .container-hero {
+        width: 335px;
+        margin: 0 auto;
+
         padding-top: 48px;
         padding-bottom: 20px;
     }
@@ -409,10 +421,11 @@
 }
 
 @media screen and (min-width:768px) {
-    .hero {
+    .container-hero {
+        width: 702px;
+        margin: 0 auto;
         padding-top: 64px;
-        padding-right: 32px;
-        padding-left: 32px;
+
         padding-bottom: 32px;
     }
 
@@ -482,7 +495,7 @@
         letter-spacing: -0.135rem;
         text-transform: uppercase;
         margin-top: 16px;
-        min-width: 656px;
+        max-width: 656px;
     }
 
     .text-hero {
@@ -495,7 +508,7 @@
         line-height: 1.125rem;
         letter-spacing: -0.035rem;
         margin-top: 16px;
-        min-width: 490px;
+        max-width: 490px;
     }
 
     .btn-shop-now {
@@ -573,10 +586,11 @@
 }
 
 @media screen and (min-width:1280px) {
-    .hero {
+    .container-hero {
+        width: 1216px;
+        margin: 0 auto;
         padding-top: 132px;
-        padding-left: 32px;
-        padding-right: 32px;
+
     }
 
     .container-hero {
@@ -657,7 +671,7 @@
 
 
         margin-top: 16px;
-        min-width: 672px;
+        max-width: 672px;
     }
 
     .text-hero {
@@ -671,7 +685,7 @@
         letter-spacing: -0.035rem;
 
         margin-top: 16px;
-        min-width: 491px;
+        max-width: 491px;
     }
 
     .btn-shop-now {
