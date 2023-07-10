@@ -70,7 +70,6 @@
 .modal-order-container {
   display: flex;
   flex-direction: row;
-  flex-wrap: wrap;
   gap: 20px;
   justify-content: center;
   margin-top: 0;
@@ -87,6 +86,10 @@
 }
 
 .contact-form-checkbox-wrapper {
+}
+
+.contact-form-checkbox {
+  appearance: none;
   position: absolute;
   width: 20px;
   height: 20px;
@@ -95,21 +98,19 @@
   cursor: pointer;
 }
 
-.contact-form-checkbox {
-  appearance: none;
-  position: absolute;
-}
-
 .contact-form-own-checkbox {
+  position: absolute;
   width: 20px;
   height: 20px;
+  top: 14px;
+  right: 14px;
+  cursor: pointer;
+}
+.contact-form-checkmark {
+  opacity: 1;
 }
 
-.contact-icon-checkmark {
-  opacity: 0;
-}
-
-.contact-form-checkbox:checked > .contact-icon-checkmark {
+.contact-form-checkbox:checked + .own-checkbox > contact-form-checkmark {
   opacity: 1;
 }
 
