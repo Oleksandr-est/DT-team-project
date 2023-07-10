@@ -76,28 +76,7 @@
         line-height: 18px;
         letter-spacing: -0.04em;
     }
-
-
-
-
-
-    .steps-container {
-<<<<<<< Updated upstream
-        background-image: url(../img/png/backimg-mob.png.png);
-=======
-        background-image:
-                    
-                url(../img/png/backimg-mob.png.png);
->>>>>>> Stashed changes
-        max-width: 335px;
-        margin: auto;
-        border-radius: 40px;
-        background-color: #FAF3E7;
-     }
-
-
-
-
+   
     .steps-title {
         /*display: flex;
         
