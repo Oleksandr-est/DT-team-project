@@ -1,4 +1,3 @@
-<link rel="stylesheet" href="../css/modal.css" />
 <div class="backdrop is-hidden" data-modal>
   <div class="modal">
     <button type="button" class="modal-close-button" data-modal-close>
@@ -8,34 +7,216 @@
         width="32"
         height="32"
       >
-        <use href="../img/svg/symbol-defs.svg#icon-x"></use>
+        <use href="./img/svg/symbol-defs.svg#icon-x"></use>
       </svg>
     </button>
     <h2 class="order-form-modalname">YOUR ORDER</h2>
     <ul class="list modal-order-container">
       <li class="modal-plant-container container">
-        <h3 class="modal-title-plant">Cabbage Bascet</h3>
-        <p class="modal-p-title">Plant</p>
-        <div class="modal-img-container">
-          <img src="../img/png/cabbage-modal.png" alt="cabbage" width="240" />
-        </div>
-      </li>
-      <li class="modal-plant-container container">
-        <h3 class="modal-title-plant">Tomato Bascet</h3>
-        <p class="modal-p-title">Plant</p>
-        <div class="modal-img-container">
-          <img src="../img/png/tomato-modal.png" alt="cabbage" width="240" />
-        </div>
-      </li>
-      <li class="modal-plant-container container">
-        <h3 class="modal-title-plant">Vegetables Bascet</h3>
-        <p class="modal-p-title">Plant</p>
-        <div class="modal-img-container">
-          <img
-            src="../img/png/vegetables-modal.png"
-            alt="cabbage"
-            width="240"
+        <div class="contact-form-checkbox-wrapper">
+          <input
+            class="contact-form-checkbox visually-hidden"
+            type="checkbox"
+            id="user-privacy"
+            name="user-privacy"
+            value="true"
+            required
           />
+        </div>
+        <div class="modal-title">
+          <h3 class="modal-title-plant">Cabbage Bascet</h3>
+          <p class="modal-p-title">Plant</p>
+        </div>
+        <div class="modal-img-container">
+          <picture>
+            <source
+              srcset="
+                ./img/png/cabbage-modal.png       1x,
+                ./img/png@2x/modal-cabbage@2x.png 2x
+              "
+              media="(min-width: 1200px)"
+              type="image/png"
+            />
+            <img
+              src="./img/png/cabbage-modal.png"
+              width="243"
+              height="200"
+              class="modal-img-desctop"
+              alt="cabbage"
+            />
+          </picture>
+          <picture>
+            <source
+              srcset="
+                ./img/png/cabbage-modal.png       1x,
+                ./img/png@2x/modal-cabbage@2x.png 2x
+              "
+              media="(min-width: 767px)"
+              type="image/png"
+            />
+            <img
+              src="./img/png@2x/modal-cabbage@2x.png"
+              width="172"
+              height="142"
+              class="modal-img"
+              alt="cabbage"
+            />
+          </picture>
+          <picture>
+            <source
+              srcset="
+                ./img/png/cabbage-modal.png       1x,
+                ./img/png@2x/modal-cabbage@2x.png 2x
+              "
+              media="(min-width: 280px)"
+              type="img/png"
+            />
+            <img
+              src="../img/png@2x/modal-cabbage@2x.png"
+              width="94"
+              height="78"
+              class="modal-img-mobile"
+              alt="cabbage"
+            />
+          </picture>
+        </div>
+      </li>
+      <li class="modal-plant-container container">
+        <div class="contact-form-checkbox-wrapper">
+          <input
+            class="contact-form-checkbox visually-hidden"
+            type="checkbox"
+            id="user-privacy"
+            name="user-privacy"
+            value="true"
+            required
+          />
+        </div>
+        <div class="modal-title">
+          <h3 class="modal-title-plant">Tomato Bascet</h3>
+          <p class="modal-p-title">Plant</p>
+        </div>
+        <div class="modal-img-container">
+          <picture>
+            <source
+              srcset="
+                ../img/png/tomato-modal.png       1x,
+                ../img/png@2x/modal-tomato@2x.png 2x
+              "
+              media="(min-width: 1200px)"
+              type="image/png"
+            />
+            <img
+              src="../img/png@2x/modal-tomato@2x.png"
+              width="243"
+              height="200"
+              class="modal-img-desctop"
+              alt="tomato"
+            />
+          </picture>
+          <picture>
+            <source
+              srcset="
+                ../img/png/tomato-modal.png       1x,
+                ../img/png@2x/modal-tomato@2x.png 2x
+              "
+              media="(min-width: 767px)"
+              type="image/png"
+            />
+            <img
+              src="../img/png@2x/modal-tomato@2x.png"
+              width="172"
+              height="142"
+              class="modal-img"
+              alt="tomato"
+            />
+          </picture>
+          <picture>
+            <source
+              srcset="
+                ../img/png/tomato-modal.png       1x,
+                ../img/png@2x/modal-tomato@2x.png 2x
+              "
+              media="(min-width: 280px)"
+              type="img/png"
+            />
+            <img
+              src="../img/png/tomato-modal.png"
+              class="modal-img-mobile"
+              width="94"
+              height="78"
+              alt="tomato"
+            />
+          </picture>
+        </div>
+      </li>
+      <li class="modal-plant-container container">
+        <div class="contact-form-checkbox-wrapper">
+          <input
+            class="contact-form-checkbox visually-hidden"
+            type="checkbox"
+            id="user-privacy"
+            name="user-privacy"
+            value="true"
+            required
+          />
+        </div>
+        <div class="modal-title">
+          <h3 class="modal-title-plant">Vegetables Bascet</h3>
+          <p class="modal-p-title">Plant</p>
+        </div>
+        <div class="modal-img-container">
+          <picture>
+            <source
+              srcset="
+                ../img/png/vegetables-modal.png       1x,
+                ../img/png@2x/modal-vegetables@2x.png 2x
+              "
+              media="(min-width: 1200px)"
+              type="image/png"
+            />
+            <img
+              src="../img/png@2x/modal-vegetables@2x.png"
+              width="243"
+              height="200"
+              class="modal-img-desctop"
+              alt="vegetables"
+            />
+          </picture>
+          <picture>
+            <source
+              srcset="
+                ../img/png/vegetables-modal.png       1x,
+                ../img/png@2x/modal-vegetables@2x.png 2x
+              "
+              media="(min-width: 767px)"
+              type="image/png"
+            />
+            <img
+              src="../img/png@2x/modal-vegetables@2x.png"
+              width="172"
+              height="142"
+              class="modal-img"
+              alt="vegetables"
+            />
+          </picture>
+          <picture>
+            <source
+              srcset="
+                ../img/png/vegetables-modal.png           1x,
+                ../src/img/png@2x/modal-vegetables@2x.png 2x
+              "
+              media="(min-width: 280px)"
+              type="img/png"
+            />
+            <img
+              src="../img/png/vegetables-modal.png"
+              class="modal-img-mobile"
+              width="94"
+              height="78"
+              alt="vegetables"
+            />
+          </picture>
         </div>
       </li>
     </ul>
@@ -77,12 +258,22 @@
         <button type="submit" class="submit-btn">Submit</button>
       </div>
       <div class="img-girl-in-orange">
-        <img
-          src="../img/png/girl-modal.png"
-          alt="girl_in_orange"
-          width="444"
-          height="413"
-        />
+        <picture>
+          <source
+            srcset="
+              ../img/png/girl-modal.png       1x,
+              ../img/png@2x/modal-girl@2x.png 2x
+            "
+            media="(min-width: 767px)"
+            type="image/png"
+          />
+          <img
+            src="../img/png@2x/modal-girl@2x.png"
+            alt="girl_in_orange"
+            width="444"
+            height="413"
+          />
+        </picture>
       </div>
     </form>
   </div>
