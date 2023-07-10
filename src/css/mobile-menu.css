@@ -40,21 +40,19 @@
   transform: translateY(-100%);
 }
 
-.close-menu-btn {
-  display: block;
-  /* margin-left: auto; */
-}
-
 .mob-menu-list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .mob-menu-item:not(:last-child) {
   margin-bottom: 16px;
-  text-align: center;
 }
 .mob-menu-link {
   text-decoration: none;
   color: #fff;
+  font-family: DM Sans;
   font-size: 14px;
   font-style: normal;
   font-weight: 400;
@@ -72,11 +70,11 @@
 .link {
 }
 .mob-menu-basket {
-  margin: 0 auto;
-  fill: #fff;
+  fill: none;
+  stroke: #fff;
 }
 
 .mob-menu-link:hover .mob-menu-basket,
 .mob-menu-link:focus .mob-menu-basket {
-  fill: #fc8a11;
+  stroke: #fc8a11;
 }
