@@ -248,7 +248,6 @@
   }
 }
 
-<<<<<<< Updated upstream
 @media screen and (min-width: 768px) {
   .modal {
     top: 50%;
@@ -281,45 +280,6 @@
     border: none;
     cursor: pointer;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
-=======
-.modal {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  max-width: 891px;
-  width: calc((100% - 36px) / 1);
-  height: 911px;
-  padding: 0;
-  background-color: #fff;
-  border-radius: 20px;
-  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.is-hidden {
-  opacity: 0;
-  visibility: hidden;
-  pointer-events: none;
-}
-
-.modal-close-button {
-  position: absolute;
-  top: 20px;
-  right: 22px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 28px;
-  height: 28px;
-  padding-left: 0;
-  padding-right: 0;
-  border-radius: 50%;
-  stroke: #141414;
-  background-color: transparent;
-  border: none;
-  cursor: pointer;
-  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
->>>>>>> Stashed changes
     border 250ms cubic-bezier(0.4, 0, 0.2, 1);
   }
 
