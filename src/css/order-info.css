@@ -63,7 +63,7 @@
     .order-text {
 
         color: #141414;
-        ext-shadow: 0px 4px 70px 0px rgba(0, 0, 0, 0.10);
+        text-shadow: 0px 4px 70px 0px rgba(0, 0, 0, 0.10);
         font-family: inherit;
         font-size: 14px;
         font-style: normal;
@@ -77,8 +77,8 @@
 
 
     .steps-container {
-
-max-width: 335px;
+        background-image: url(../img/png/backimg-mob.png.png);
+        max-width: 335px;
         margin: auto;
         border-radius: 40px;
         background-color: #FAF3E7;
@@ -220,7 +220,7 @@ max-width: 335px;
 
     .steps-container {
 
-
+background-image: url(../img/png/backimg-tab.png.png);
         margin: auto;
         justify-content: center;
         border-radius: 80px;
@@ -356,8 +356,9 @@ letter-spacing: -0.04em;
 }
 
 .steps-container {
+    background-image: url(../img/png/backimg-desck.png.png);
    max-width: 1216px;
-   argin: auto;
+   margin: auto;
 justify-content: center;
 border-radius: 80px;
 background-color: #FAF3E7;
