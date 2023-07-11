@@ -1,20 +1,21 @@
 
 /*--------mobile version------------------------------------*/
-/*container {
+.container {
     width: 100%;
     padding-left: 20px;
     padding-right: 20px;
     margin: 0 auto;
-}*/
+outline: 2px solid red;
+    }
 
 
-@media screen and (max-width: 375px) {
+@media screen and (min-width: 375px) {
         .container {
         max-width: 335px;
-        padding-right: 20px;
-        padding-left: 20px;
-        margin: auto;
-    }
+        padding-right: 0;
+        padding-left: 0;
+        }
+             
 
     .container-vegetables {
 
@@ -82,13 +83,11 @@
 
 
     .steps-container {
-<<<<<<< Updated upstream
-        background-image: url(../img/png/backimg-mob.png.png);
-=======
+
+
         background-image:
                     
                 url(../img/png/backimg-mob.png.png);
->>>>>>> Stashed changes
         max-width: 335px;
         margin: auto;
         border-radius: 40px;
@@ -149,12 +148,10 @@
 /*----------tablet adaptive----------------------------------*/
 
 
-@media screen and (min-width: 768px ) {
+@media screen and (min-width: 768px) {
        .container {
-        min-width: 704px;
-        padding-right: 32px;
-        padding-left: 32px;
-        margin: auto;
+        max-width: 704px;
+        
     }
 
 
@@ -231,7 +228,7 @@
     }
 
     .steps-container {
-
+max-width: 704px;
 background-image: url(../img/png/backimg-tab.png.png);
         margin: auto;
         justify-content: center;
@@ -239,7 +236,7 @@ background-image: url(../img/png/backimg-tab.png.png);
         background-color: #FAF3E7;
         display: flex;
         flex-direction: row-reverse;
-        padding-right: 30px;
+        
 
     }
 
@@ -299,9 +296,7 @@ letter-spacing: -0.04em;
 @media screen and (min-width: 1280px) {
     .container {
         max-width: 1216px;
-        padding-right: 32px;
-        padding-left: 32px;
-        margin: auto;
+        
     }
     
 
