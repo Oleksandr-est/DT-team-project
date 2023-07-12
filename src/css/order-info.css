@@ -5,17 +5,17 @@
     padding-left: 20px;
     padding-right: 20px;
     margin: 0 auto;
-outline: 2px solid red;
+/*outline: 2px solid red;*/
     }
-.cont-column {
+/*.cont-column {
     max-width: 335px;
     padding-right: 0;
     padding-left: 0;
-}
+}*/
 
 
 .container-vegetables {
-
+position: relative;
     padding-top: 80px;
     background-color: #ffffff;
     padding-bottom: 80px;
@@ -29,7 +29,7 @@ outline: 2px solid red;
     width: 100%;
     height: 100%;
     color: #141414;
-    text-shadow: 0px 4px 70px 0px rgba(0, 0, 0, 0.10);
+    
     font-family: inherit;
     font-size: 28px;
     font-style: normal;
@@ -66,7 +66,7 @@ outline: 2px solid red;
 .order-text {
 
     color: #141414;
-    text-shadow: 0px 4px 70px 0px rgba(0, 0, 0, 0.10);
+    
     font-family: inherit;
     font-size: 14px;
     font-style: normal;
@@ -100,7 +100,7 @@ outline: 2px solid red;
     height: 100%;
     text-align: left;
     color: #141414;
-    text-shadow: 0px 4px 70px 0px rgba(0, 0, 0, 0.10);
+    
     font-family: inherit;
     font-size: 24px;
     font-style: normal;
@@ -132,7 +132,7 @@ outline: 2px solid red;
     color: #141414;
     font-family: inherit;
     font-size: 18px;
-    font-weight: 400px;
+    font-weight: 400;
 }
 
 .steps-item {
@@ -180,7 +180,7 @@ outline: 2px solid red;
         width: 100%;
         height: 100%;
         color: #141414;
-        text-shadow: 0px 4px 70px 0px rgba(0, 0, 0, 0.10);
+        
         font-family: inherit;
         font-size: 28px;
         font-style: normal;
@@ -217,7 +217,7 @@ outline: 2px solid red;
     .order-text {
 
         color: #141414;
-        text-shadow: 0px 4px 70px 0px rgba(0, 0, 0, 0.10);
+        
         font-family: inherit;
         font-size: 14px;
         font-style: normal;
@@ -236,6 +236,11 @@ outline: 2px solid red;
         border-radius: 40px;
         background-color: #FAF3E7;
      }
+
+.steps-revers {
+    margin-bottom: 20px;
+}
+
     .steps-title {
         /*display: flex;
         
@@ -249,7 +254,7 @@ outline: 2px solid red;
         height: 100%;
         text-align: left;
         color: #141414;
-        text-shadow: 0px 4px 70px 0px rgba(0, 0, 0, 0.10);
+        
         font-family: inherit;
         font-size: 24px;
         font-style: normal;
@@ -281,7 +286,7 @@ outline: 2px solid red;
      color: #141414;
      font-family: inherit;
      font-size: 18px;
-     font-weight: 400px;
+     font-weight: 400;
 }
 
 .steps-item {
@@ -292,11 +297,17 @@ outline: 2px solid red;
         display: flex;
         flex-direction: column;
         gap: 20px;
-        max-width: 275px;
+        /*max-width: 275px;*/
         width: 100%;
         margin: auto;
         margin-bottom: 20px;
+        padding-left: 0;
     }
+
+.steps-text {
+    
+    padding-right: 14px;
+}
 
     .steps-img {
         max-width: 258px;
@@ -348,7 +359,7 @@ outline: 2px solid red;
         height: 100%;
 
         color: #141414;
-        text-shadow: 0px 4px 70px 0px rgba(0, 0, 0, 0.10);
+       
         font-family: inherit;
         font-size: 40px;
         font-style: normal;
@@ -385,7 +396,7 @@ outline: 2px solid red;
 
     .order-text {
         color: #141414;
-        text-shadow: 0px 4px 70px 0px rgba(0, 0, 0, 0.10);
+        
         font-family: inherit;
         font-size: 18px;
         font-style: normal;
@@ -423,7 +434,7 @@ background-image: url(/img/png/backimg-tab.png);
         /*max-width: 274px;*/
         width: 100%;
         color: #141414;
-        text-shadow: 0px 4px 70px 0px rgba(0, 0, 0, 0.10);
+        
         font-family: inherit;
         font-size: 28px;
         font-style: normal;
@@ -443,14 +454,14 @@ padding-right: 40px;
 
 
 
-.steps-item {
+.steps-item 
 
 
-}
+
 
 .steps-text {
     color: #141414;
-text-shadow: 0px 4px 70px 0px rgba(0, 0, 0, 0.10);
+
 font-family: inherit;
 font-size: 14px;
 font-style: normal;
@@ -492,7 +503,7 @@ letter-spacing: -0.04em;
 
 .title-order {
     color: #141414;
-        text-shadow: 0px 4px 70px 0px rgba(0, 0, 0, 0.10);
+        
         font-family: inherit;
         font-size: 48px;
         font-style: normal;
@@ -527,7 +538,7 @@ letter-spacing: -0.04em;
 
 .order-text {
     color: #141414;
-        text-shadow: 0px 4px 70px 0px rgba(0, 0, 0, 0.10);
+        
         font-family: inherit;
         font-size: 18px;
         font-style: normal;
@@ -560,7 +571,7 @@ flex-direction: row-reverse;
     max-width: 512PX;
     width: 100%;
     color: #141414;
-        text-shadow: 0px 4px 70px 0px rgba(0, 0, 0, 0.10);
+        
         font-family: inherit;
         font-size: 40px;
         font-style: normal;
@@ -580,7 +591,7 @@ flex-direction: row-reverse;
 
 .steps-text {
   color: #141414;
-text-shadow: 0px 4px 70px 0px rgba(0, 0, 0, 0.10);
+
 font-family: inherit;
 font-size: 14px;
 font-style: normal;
