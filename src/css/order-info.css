@@ -127,7 +127,7 @@ position: relative;
     color: #141414;
     border-radius: 50%;
     background-color: #A1C487;
-    width: 46px;
+    min-width: 46px;
     height: 44px;
     color: #141414;
     font-family: inherit;
@@ -281,7 +281,7 @@ position: relative;
      color: #141414;
      border-radius: 50%;
      background-color: #A1C487;
-     width: 46px;
+     min-width: 46px;
      height: 44px;
      color: #141414;
      font-family: inherit;
@@ -306,7 +306,7 @@ position: relative;
 
 .steps-text {
     
-    padding-right: 14px;
+    padding-left: 14px;
 }
 
     .steps-img {
@@ -448,8 +448,8 @@ background-image: url(/img/png/backimg-tab.png);
 .steps-list {
     max-width: 275px;
 width: 100%;
-padding-left: 39px;
-padding-right: 40px;
+/*padding-left: 39px;
+padding-right: 40px;*/
 }
 
 
